@@ -1,0 +1,65 @@
+<html>'
+    <head>
+        <title><h1>REGISTRATION FORM</h1></title>
+        <link rel="stylesheet" type="text/css" href="styleform.css">
+    </head>
+    <body>
+        <form>
+            <div class="container">
+             <center><h1>STUDENT REGISTER FORM</h1></center><br>
+             <hr>
+                <label>First Name:</label><input type="text" placeholder="Enter your First name" minlength="4"maxlength="20"><br>
+                <label>Last Name:</label><input type="text" placeholder="Enter your Last name"><br>
+                    <label>DOB:</label><input type="Date" id="dob" name="dob"><br>
+                <div>
+                <label>course:</label>
+                <select>
+                    <option value="course">course</option>
+                    <option value="BCA">BCA</option>
+                    <option value="BCA">BBA</option>
+                    <option value="BCA">B.Tech</option>
+                    <option value="BCA">M.Tech</option>
+                </select>
+                </div>
+                <label>Branch:</label>
+                <select>
+                    <option value="CSE">CSE</option>
+                    <option value="IT">IT</option>
+                    <option value="ECE">ECE</option>
+                    <option value="MECH">MECH</option>
+                    <option value="CIVIL">CIVIL</option>
+                </select>
+                <div>
+                   <label>Gender:</label><br>
+                   <input type="radio" value="Male" name="gender">Male
+                   <input type="radio" value="Female" name="gender"checked>female
+                </div>
+                <label>Languages known:</label>
+                <label>English</label><input type="checkbox">
+                <label>Telugu</label><input type="checkbox">
+                <label>Hindi</label><input type="checkbox">
+                <div>
+                <label>upload image</label><input type="file">
+                </div
+                <div>
+                    <label>Age:</label><input type="number" max="100" min="10">
+                </div>
+                <div class="container">
+                    <label>Phno:</label><input type="text" value="+91" size="10"><br>
+                    <label>Address:</label><textarea cols="80"  rows="5" placeholder="Address"value="Address" ></textarea>
+                </div>
+                <div class="container">
+                <label>Email:</label><input type="text" placeholder="Enter your email"><br>
+                <label>password:</label><input type="password" placeholder="********"><br>
+                <label>Confirm PassWord:</label><input type="password" placeholder="password" value="***********">
+                <div>
+                <button type="submit">reset</button>
+                <button type="submit" class="submitbtn">submit</button>
+                <button type="submit">cancel</button>
+                </div>
+            
+        </form>
+
+    </body>
+
+</html>
